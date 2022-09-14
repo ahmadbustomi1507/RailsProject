@@ -5,5 +5,5 @@ Rails.application.routes.draw do
   # <controller>#<action> 
   # root 'application#hello'
   root 'pages#home'
-
+  get 'about',to: 'pages#about'
 end

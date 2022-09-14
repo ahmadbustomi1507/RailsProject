@@ -197,3 +197,35 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 19ms (Views: 17.3ms | Allocations: 4468)
 
 
+Started GET "/" for 127.0.0.1 at 2022-09-14 13:56:28 +0700
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 394)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | Allocations: 6707)
+Completed 200 OK in 24ms (Views: 15.8ms | ActiveRecord: 0.0ms | Allocations: 10834)
+
+
+Started GET "/about" for 127.0.0.1 at 2022-09-14 14:00:18 +0700
+Processing by PagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (Duration: 0.2ms | Allocations: 130)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 4289)
+Completed 200 OK in 8ms (Views: 7.5ms | Allocations: 5497)
+
+
+Started GET "/about" for 127.0.0.1 at 2022-09-14 14:09:24 +0700
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (Duration: 0.9ms | Allocations: 401)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.9ms | Allocations: 6700)
+Completed 200 OK in 30ms (Views: 17.0ms | ActiveRecord: 0.0ms | Allocations: 10886)
+
+
